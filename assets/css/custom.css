@@ -1,0 +1,87 @@
+body {
+  background: #f7f7f7 url("../bgpage.png") repeat left top;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    cursor: default;
+}
+.container {
+    max-width: 1000px;
+}
+.box, .main-content {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #d5d5d5;
+}
+.box {
+    margin-bottom: 15px;
+}
+.badge-important{
+    background-color:#b94a48
+}
+.badge-important[href]{
+    background-color:#953b39
+}
+.badge-warning{
+    background-color:#f89406
+}
+.badge-warning[href]{
+    background-color:#c67605
+}
+.badge-success{
+    background-color:#468847
+}
+.badge-success[href]{
+    background-color:#356635
+}
+.badge-info{
+    background-color:#3a87ad
+}
+.badge-info[href]{
+    background-color:#2d6987
+}
+.badge-inverse{
+    background-color:#333
+}
+.badge-inverse[href]{
+    background-color:#1a1a1a
+}
+h1, h2, h3, h4 ,h5 ,h6,
+.page-header {
+    margin-top: 0;
+}
+.logo {
+    margin: 15px 0;
+}
+/* Customize the nav-justified links to be fill the entire space of the .navbar */
+
+.footer {
+    margin: 15px 0;
+    padding: 15px 0;
+    border-top: 1px solid #ddd;
+    color: #777;
+    text-align: center;
+}
+.footer a {
+    color: #666;
+}
+@media (max-width: 769px) {
+    .logo {
+        text-align: center;
+    }
+}
+@media (min-width: 1000px) {
+    .order-form {
+        min-height: 380px;
+    }
+}
+@media print {
+    body {
+        background: #fff;
+        padding: 0;
+    }
+    .main-content {
+        border: 0;
+        padding: 5px;
+    }
+}
